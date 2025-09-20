@@ -20,6 +20,7 @@
 
 //by id
 let idName = document.getElementById('para1')
+element.style.frontsize = "30px"
 console.log(idName);
 // idName.innerText = "hello everyone"
 
