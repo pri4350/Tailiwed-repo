@@ -12,6 +12,7 @@
     element.style.color = "blue"
     element.style.backgroundColor = "#87CEEB"
     element.style.border = "2px solid red"
+    element.style.padding = "10px"
  }
 
 //by class
@@ -19,10 +20,15 @@
 // console.log(className[0]);
 
 //by id
-let idName = document.getElementById('para1')
-element.style.frontsize = "30px"
-console.log(idName);
+// let idName = document.getElementById('para1')
+// element.style.frontsize = "30px"
+// console.log(idName);
 // idName.innerText = "hello everyone"
+
+//query selector
+// let qSelector = document.querySelector('.par')
+// console.log(qSelector);
+// qSelector.style.color = "red"
 
 //create element
 let body = document.body
