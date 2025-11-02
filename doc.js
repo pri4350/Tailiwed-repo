@@ -33,7 +33,8 @@
 //create element
 let h1 = document.createElement('h1')
 h1.innerText = "This is created by using DOM"
-let body = document.body(h1)
+console.log(h1)
+let body = document.body
 let heading1= document.createElement('h1')
 heading1.innerText = "DOM class"
 heading1.className = "head1"
@@ -90,9 +91,6 @@ button.style.fontSize = "16px"
 button.style.margin = "10px 0"
 button.style.cursor = "pointer"
 button.style.borderRadius = "6px"
-button.onmouseover = function(){
-    button.style.backgroundColor = "#45a049"
-}
 card.appendChild(img)
 card.appendChild(title)
 card.appendChild(description)
